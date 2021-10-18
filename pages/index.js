@@ -17,36 +17,37 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Your Home Page is accessible here
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://dms.codes" className={styles.card}>
+            <h2>DMS Codes Website</h2>
+            <p>Main website of Digital Mind Solutions.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Who Build This App</h2>
+            <p>Digital Mind Solutions did!</p>
+            
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/squteronsquter"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <h2>Visit our GitHub Space</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://vercel.com/"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Ci/CD Deployment</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              We deployed this app with Vercel.
             </p>
           </a>
         </div>
@@ -54,7 +55,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://dms.codes"
           target="_blank"
           rel="noopener noreferrer"
         >
