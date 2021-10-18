@@ -16,19 +16,14 @@ export default function Home() {
           Squter Ride is On
         </h1>
 
-        <p className={styles.description}>
-          Your Home Page is accessible here
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://dms.codes" className={styles.card}>
-            <h2>DMS Codes Website</h2>
-            <p>Main website of Digital Mind Solutions.</p>
+          <a href="https://jamstackhandbook.com/" className={styles.card}>
+            <h2>We love Jamstack!</h2>
+            <p>Do You? Discover this awesome book on Jamstack</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Who Build This App</h2>
+          <a href="https://dms.codes" className={styles.card}>
+            <h2>Who Build This App?</h2>
             <p>Digital Mind Solutions did!</p>
             
           </a>
@@ -38,14 +33,14 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Visit our GitHub Space</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Discover more code we test...</p>
           </a>
 
           <a
             href="https://vercel.com/"
             className={styles.card}
           >
-            <h2>Ci/CD Deployment</h2>
+            <h2>CI / CD Deployment Workflow</h2>
             <p>
               We deployed this app with Vercel.
             </p>
